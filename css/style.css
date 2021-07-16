@@ -1,0 +1,392 @@
+/* ===|| Font Intigration Start ||=== */
+@font-face{
+    font-family: 'Roboto', sans-serif;
+    src: url(..//fonts/Roboto-Regular.ttf);
+    src: url(../fonts/Roboto-Medium.ttf);
+    src: url(..//fonts/Roboto-Bold.ttf);
+}
+@font-face{
+    font-family: 'Lato', sans-serif;
+    src: url(..//fonts/Lato-Regular.ttf);
+    src: url(..//fonts/Lato-Bold.ttf);
+}
+/* ===|| Font Intigration End ||=== */
+
+/* ===|| Common CSS Start ||=== */
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+h1{
+    font-family: 'Lato', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    font-style: italic;
+    word-spacing: 2px;
+    color:rgb(42, 14, 68);
+    text-shadow: 1px 1px #5f3ba3;
+}
+h2{
+    margin-top: 10px;
+    font-size: 22px;
+    font-style: italic;
+    color: rgb(255, 123, 0);
+}
+h6{
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+button{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+button:active{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+/* ===|| Common CSS End ||=== */
+.single-assignment{
+    margin-top: 30px;
+    padding: 40px;
+    height: 100%;
+    border: 2px solid #1E1E1E;
+    border-radius: 10px;
+    background-color: rgba(241, 238, 238, 0.699);
+}
+.single-assignment:last-child{
+    margin-bottom: 30px;
+}
+.right-input{
+    margin-left: 30px;
+    background-color: #1E1E1E;
+    color: #fff;
+}
+.right-input img{
+    width: 100%;
+}
+
+
+nav ul li{
+    margin: 20px;
+}
+nav ul li a{
+    width: 150px;
+    height: 40px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    background-image: linear-gradient(to right, #005C97 0%, #363795  51%, #005C97  100%);
+    color: #fff !important;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+}
+nav ul li a:hover{
+    background-position: right center;
+}
+/* ===|| Nav CSS Band ||=== */
+
+.slider-for .single{
+    background-color: violet;
+    margin: 20px;
+}
+.slider-nav .single{
+    background-color: violet;
+    margin: 20px;
+}
+.slider-for img{
+    width: 100%;
+    height: 350px;
+}
+ .slider-nav .single img{
+    width: 100%;
+}
+ .slick-dots li button:before {
+    color: #000;
+    font-size: 60px;
+}
+/* Slick JS End */
+.car-slider{
+    position: relative;
+}
+.owl-carousel .owl-nav button.owl-next{
+    position: absolute;
+    top: 40%;
+    right: 5%;
+    border-radius: 50%;
+}
+.owl-carousel .owl-nav button.owl-prev{
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    border-radius: 50%;
+}
+.owl-carousel .owl-nav button.owl-prev span{
+    font-size: 70px;
+    font-weight: 700;
+    text-shadow: 2px 2px #131116;
+    line-height: 0;
+    padding: 0;
+    color: #fff;
+}
+.owl-carousel .owl-nav button.owl-next span{
+    font-size: 70px;
+    font-weight: 700;
+    text-shadow: 2px 2px #131116;
+    line-height: 0;
+    padding: 0;
+    color: #fff;
+}
+.owl-theme .owl-nav [class*=owl-]:hover {
+    color: rgb(197, 197, 29);
+    background: transparent;
+}
+.owl-dots{
+    position: absolute;
+    bottom: 5%;
+    left: 45%;
+}
+.owl-theme .owl-dots .owl-dot span{
+    width: 20px;
+    height: 20px;
+    background: yellowgreen;
+}
+/* Owl Carousel End */
+.parallax-window {
+    min-height: 300px;
+    background: transparent;
+    background-size: cover;
+    width: 100%;
+    opacity: 1;
+}
+.bg-height{
+    height: 400px;
+}
+/* Parralax Js End */
+
+.single-item img{
+    width: 95%;
+}
+
+.item-menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+    background-color: rgb(34, 73, 73);
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.item-details{
+    position: relative;
+}
+/* Isotope End */
+
+.perticle-bg{
+    height: 450px;
+    position: relative;
+}
+  /* ---- particles.js container ---- */
+  
+  #particles-js {
+    width: 100%;
+    height: 400px;
+    display: block;
+    background-color: #b61924;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  /* ---- stats.js ---- */
+
+  /* ==|| Particle CSS End ||== */
+
+.lightbox-img a img{
+    width: 24.5%;
+}
+/* LightBox CSS END */
+
+.counter span{
+    font-size: 50px;
+}
+/* Counter CSS End */
+
+.magnific-img{
+    width: 32%;
+    display: inline-block;
+}
+.magnific-img a img{
+    width: 100%;
+}
+/* Magnific JS End */
+
+span.type-text{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    color: #8cb619;
+} 
+/* Type JS End */
+
+#scrolltop{
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    background-color: #24193d;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    display: none;
+}
+/* Scroll Top End */
+#element{
+    margin-top: 50px;
+}
+#element>div{
+    display: inline-block;
+    margin-right: 150px;
+}
+/* Smooth Circle Chart Plugin END */
+
+
+.project {
+    width: 100%;
+    width: 28%;
+    float: left;
+    margin-right: 5%;
+  }
+  
+  .project__image {
+    display: block;
+    position: relative;
+  }
+  
+  .project__image img {
+    width: 100%;
+    max-width: 100%;
+    display: block;
+  }
+  
+  .project__image:after {
+    content: " ";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4));
+    transition: opacity .3s ease;
+    opacity: 0;
+  }
+  
+  .project__card {
+    position: relative;
+    will-change: transform;
+    transition: box-shadow .3s ease;
+    box-shadow: 0 10px 30px transparent;
+  }
+  
+  .project__card.hover-in {
+    transition: -webkit-transform .2s ease-out;
+    transition: transform .2s ease-out;
+    transition: transform .2s ease-out, -webkit-transform .2s ease-out;
+  }
+  
+  .project__card.hover-out {
+    transition: -webkit-transform .2s ease-in;
+    transition: transform .2s ease-in;
+    transition: transform .2s ease-in, -webkit-transform .2s ease-in;
+  }
+  
+  .project:hover .project__card { box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4); }
+  
+  .project:hover .project__image:after { opacity: 1; }
+  
+  .project:hover .project__detail {
+    border-width: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  }
+  
+  .project:hover .project__title, .project:hover .project__category {
+    -webkit-transform: translateY(0) scale(1);
+    -ms-transform: translateY(0) scale(1);
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+  
+  .project__detail {
+    position: absolute;
+    left: 30px;
+    right: 30px;
+    top: 30px;
+    bottom: 30px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    pointer-events: none;
+    -webkit-transform: translateZ(30px);
+    transform: translateZ(30px);
+    border: 0 solid #00BCD4;
+    transition: border .4s ease;
+  }
+  
+  .project__title {
+    margin: 0 0 10px;
+    font-size: 36px;
+    font-weight: 700;
+    transition: .4s ease;
+    opacity: 0;
+    -webkit-transform: translateY(40px) scale(0);
+    -ms-transform: translateY(40px) scale(0);
+    transform: translateY(40px) scale(0);
+    will-change: transform;
+  }
+  
+  .project__title a { color: white; }
+  
+  .project__category {
+    opacity: 0;
+    transition: .4s ease;
+    transition-delay: .1s;
+    -webkit-transform: translateY(40px) scale(0);
+    -ms-transform: translateY(40px) scale(0);
+    transform: translateY(40px) scale(0);
+    will-change: transform;
+  }
+  
+  .project__category a {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1.3em;
+  }
+/* 3D Interactive CSS End */
+
+#circle-type{
+    text-transform: uppercase;
+    animation: text-animation 15s infinite linear;
+}
+@keyframes text-animation {
+    0%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+#circle-type h1{
+    word-spacing: 40px;
+}
